@@ -1,6 +1,8 @@
 # SecureDisplayBundle
 MBSecureDisplayBundle is a small simple bundle which protect emails, phone numbers and any text you want from spam bot, by using encryption, ajax and JavaScript.
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/391b778f-d88d-488c-b427-1ac1843684bc/big.png)](https://insight.sensiolabs.com/projects/391b778f-d88d-488c-b427-1ac1843684bc)
+[![Build Status](https://travis-ci.org/mb-webdev/SecureDisplayBundle.svg?branch=master)](https://travis-ci.org/mb-webdev/SecureDisplayBundle)
 
 ## Requirements
 Before installing this bundle, you need to have a working installation of [FOSJsRoutingBundle](https://github.com/FriendsOfSymfony/FOSJsRoutingBundle).
