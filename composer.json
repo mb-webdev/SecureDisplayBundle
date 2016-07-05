@@ -1,0 +1,26 @@
+{
+    "name":         "mb/secure-display-bundle",
+    "description":  "MBSecureDisplayBundle is a small simple bundle which protect emails and phone numbers behine encryption and JavaScript",
+    "keywords":     ["mb-webdev", "secure", "phone", "email"],
+    "type":         "symfony-bundle",
+    "license":      "MIT",
+    "authors": [
+        {
+            "name":     "Michael Barbey",
+            "email":    "michael@mb-webdev.ch"
+        }
+    ],
+    "require": {
+        "php":                               ">=5.3.3",
+        "symfony/framework-bundle":          "~2.3",
+        "symfony/twig-bundle":               "~2.3",
+        "friendsofsymfony/jsrouting-bundle": "~1.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4",
+        "phake/phake": "~1"
+    },
+    "autoload": {
+        "psr-4": { "MB\\SecureDisplayBundle\\": "" }
+    }
+}

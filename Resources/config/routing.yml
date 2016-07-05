@@ -1,0 +1,7 @@
+mb_secure_display:
+    path:     /mb_secure_display
+    defaults: { _controller: "MBSecureDisplayBundle:Display:decrypt" }
+    requirements:
+        methods:  POST
+    options:
+        expose: true

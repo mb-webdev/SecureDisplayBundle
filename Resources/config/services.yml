@@ -1,0 +1,13 @@
+services:
+    mb.twig.secure_display_extension:
+        class: MB\SecureDisplayBundle\Twig\SecureDisplayExtension
+        arguments:
+            - "@encrypter"
+            - "%mb_secure_display.template%"
+        tags:
+            - { name: twig.extension }
+    encrypter:
+        class: MB\SecureDisplayBundle\Services\Encrypter
+        arguments:
+            - "@session"
+            - "%mb_secure_display.key%"
