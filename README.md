@@ -55,7 +55,7 @@ mb_secure_display:
 Register the routing of the bundle to be able to perform ajax requests
 ```yaml
 # app/config/routing.yml
-netinfluence_secure_display:
+mb_secure_display:
     resource: "@MBSecureDisplayBundle/Resources/config/routing.yml"
     prefix:   /
 ```
